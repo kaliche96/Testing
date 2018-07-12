@@ -4,4 +4,4 @@ install:
 - travis_retry nuget restore -source "https://www.nuget.org/api/v2" Testing.sln
 script:
 - xbuild Testing.sln
-- mono ./Testing/packages/xunit.runner.console*/tools/xunit.console.exe ./Testing.Tests/bin/Debug/Testing.Tests.dll
+
